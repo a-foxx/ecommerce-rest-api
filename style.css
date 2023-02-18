@@ -1,0 +1,68 @@
+body {
+    background-image: url(images/daisyrough.jpg);
+    background-size: 100%;
+    background-repeat: repeat ;
+    margin: 1em;
+    text-align: center;
+  }
+
+h1 {
+    font-size: 3em;
+    color: gold;
+    background-color: rgba(182, 240, 187, 0.9);
+    text-shadow: 1.5px 1.5px gray;
+    padding: 0em 0.1em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+header img {
+    height: 8em;
+    width: 6em;
+}
+
+nav {
+    background-color: rgba(250, 235, 215, 0.7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+
+.products {
+    background-color: rgba(250, 235, 215, 0.7);
+    border-radius: 1.5em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.product-images {
+    height: 16em;
+    width: 12em;
+    border-radius: 25%;
+}
+
+.price {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+button {
+    background-color: aliceblue;
+    font-size: 1.2em;
+}
+
+a {
+    color: black;
+}
